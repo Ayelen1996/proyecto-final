@@ -1,0 +1,270 @@
+@charset "UTF-8";
+body {
+  background-color: #E4E4E4;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font: normal 46px "Roboto Slab", serif;
+  color: #f15a24;
+}
+
+h2 {
+  font: normal 24px "Roboto", sans-serif;
+  color: #f15a24;
+}
+
+p {
+  font: normal 16px "Roboto", sans-serif;
+  color: #252525;
+}
+
+/* BARRA DE NAVEGACIÓN */
+#barra {
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: justify;
+  position: absolute;
+}
+
+#barra a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#barra a:hover {
+  color: #f15a24;
+}
+
+/* HOME */
+.home {
+  height: 100vh;
+  overflow: hidden;
+  border: none;
+  margin: 0%;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home img {
+  height: 100vh;
+}
+
+.home h1 {
+  position: absolute;
+  font-size: 60pt;
+  color: white;
+}
+
+/* MENU */
+#menu h1 {
+  padding-top: 8%;
+  margin-left: 10%;
+}
+
+.platos {
+  width: 85%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  -webkit-box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.48);
+          box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.48);
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.card-title {
+  font-size: 18pt;
+}
+
+.platos img {
+  width: 105%;
+}
+
+.foto {
+  height: 105%;
+  overflow: hidden;
+}
+
+.foto img {
+  height: 120%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.foto img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+/* NOSOTROS */
+#nosotros {
+  margin-top: 6%;
+}
+
+#nosotros .container {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding: 20px;
+}
+
+#nosotros h1 {
+  margin-bottom: 9%;
+}
+
+/* RESERVAS */
+.reservaimagen {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  margin-top: 5%;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reservaimagen img {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.reservaimagen h1 {
+  position: absolute;
+  color: white;
+}
+
+.formularioreserva {
+  background: none;
+  width: 90%;
+  height: 90%;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.formularioreserva form label {
+  display: block;
+}
+
+.formularioreserva form button,
+.formularioreserva form input,
+.formularioreserva form textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #252525;
+  border-bottom: 1px solid #f15a24;
+}
+
+.formularioreserva form button {
+  background: #f15a24;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.formularioreserva form button:hover {
+  background-color: #fa7849;
+}
+
+/* CONTACTO */
+#escribinos {
+  margin-top: 10%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#escribinos h1 {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+#escribinos p {
+  text-align: left;
+  width: 85%;
+  margin-bottom: 10%;
+}
+
+.formulariocontacto {
+  background: none;
+  width: 90%;
+  height: 90%;
+  -webkit-box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.48);
+          box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.48);
+  padding: 30px;
+  margin-bottom: 10%;
+}
+
+.formulariocontacto form label {
+  display: block;
+}
+
+.formulariocontacto form button,
+.formulariocontacto form input,
+.formulariocontacto form textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #252525;
+  border-bottom: 1px solid #f15a24;
+}
+
+.formulariocontacto form button {
+  background: #f15a24;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.formulariocontacto form button:hover {
+  background-color: #fa7849;
+}
+
+/* FOOTER */
+footer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#footer p {
+  color: #E4E4E4;
+}
+
+.blackiconcolor {
+  color: #E4E4E4;
+}
+/*# sourceMappingURL=style.css.map */
